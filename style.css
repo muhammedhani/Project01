@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    background-image: url(bodybackground05.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 40px 40px 0px 40px;
+    padding: 75px 0;
+    text-align: center;
+}
+.navigation{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 0;
+    margin: 0 40px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+}
+ul li{
+    display: inline-block;
+    padding: 0 35px;
+}
+.content{
+    color: whitesmoke;
+    height: 600px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 40px;
+    background-image: url(background02.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.footer{
+    text-align: right;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 3px 5px;
+    margin: 0 40px 40px 40px;
+}
+#button1{
+    border-style: outset;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 5px 8px;
+}
+#search1{
+    padding: 5px 3px;
+    margin-right: 5px;
+}   
+h1{
+    text-align: center;
+}
+p{
+                
+}
+span{
+    text-align: right;
+}
