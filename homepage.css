@@ -1,4 +1,5 @@
 body{
+    box-sizing: content-box;
     padding: 0;
     margin: 0;
     font-family: cursive;
@@ -20,7 +21,7 @@ body{
     text-align: center;
 }
 .navigation{
-    background-color: #FFF;
+    background-color: whitesmoke;
     text-align: center;
     padding: 0;
     margin: 0 80px 40px 80px;
@@ -70,7 +71,7 @@ ul li{
 }
 .liboxes a{
     text-decoration: none;
-    color: gray;
+    color: black;
 }‬
 form{
     display: inline-block;
@@ -81,19 +82,20 @@ form{
     font-size: 20px;
     background-color: whitesmoke;
     padding: 0px 3px;
+    margin-top: 15px;
     vertical-align: middle;
     border-radius: 30px 0 0 30px;
     height: 50px;
     width: 500px;
 }
 #searchbutton{
-    background-color: red;
     background-image: url(searchicon.png);
     background-position: center center;
     background-size: cover;
     border-style: outset;
     border-radius: 0 30px 30px 0;
     background-color: whitesmoke;
+    margin-top: 15px;
     margin-left: -5px;
     vertical-align: middle;
     height: 50px;
@@ -105,6 +107,42 @@ h1{
 p{
                 
 }
+#socialmedia{
+    list-style: none;
+    display: inline-block;
+}
+.limedia{
+    padding: 0 0 0 0;
+    margin: 10px 15px 10px 15px;
+    vertical-align: middle;
+    display: inline-block;
+    border-style: hidden;
+    border-radius: 18px 18px 18px 18px;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+}
+.smedia{
+    width: 50px;
+    height: 50px;
+}
+#aup{
+    display: inline-block;
+    vertical-align: middle;
+    border-style: hidden;
+    border-radius: 100px 100px 100px 100px;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    padding: 0 0 0 0;
+    margin-right: -5;
+    margin-left: 400px;
+}
+#up{
+    width: 100px;
+    height: 100px;
+}
+
 .footer{
     text-align: center;
     background-color: #0009;
