@@ -9,10 +9,13 @@ body{
     background-size: cover;
 }
 .header{
-    background-color: black;
+    background-image: url(banner01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: whitesmoke;
     font-size: 40px;
-    margin: 40px 40px 0px 40px;
+    margin: 0px 80px 0px 80px;
     padding: 75px 0;
     text-align: center;
 }
@@ -20,9 +23,9 @@ body{
     background-color: lightgrey;
     text-align: center;
     padding: 0;
-    margin: 0 40px;
+    margin: 0 80px 40px 80px;
 }
-ul{
+.navul{
     list-style: none;
     margin: 0;
     padding: 8px;
@@ -31,25 +34,61 @@ ul li{
     display: inline-block;
     padding: 0 35px;
 }
+#search1{
+    padding: 5px 3px;
+    margin-right: 5px;
+}   
 .content{
     color: whitesmoke;
-    height: 600px;
     text-align: center;
-    padding: 20px 0;
-    margin: 0 40px;
-    background-image: url(background02.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover;
+    padding: 20px 10px;
+    margin: 0 80px;
+    background-color: black;
+}
+.boxes{
+    width: 300px;
+    height: 300px;
+}
+.liboxes{
+    padding: 0 0 10px 0;
+    margin: 10px 20px 10px 20px;
+    width: 300px;
+    
+    height: 350px;
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 2px;
+    border-radius: 20px 0 20px 0;
+}
+#fifa19{
+    text-align: center;
+    width: 30%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+    
+}
+#pes19{
+    text-align: center;
+    width: 30%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+#fortnite{
+    text-align: center;
+    width: 30%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
 }
 .footer{
     text-align: right;
     background-color: black;
     color: whitesmoke;
     font-size: 15px;
-    padding: 3px 5px;
-    margin: 0 40px 40px 40px;
+    padding: 5px 10px;
+    margin: 0 80px 40px 80px;
 }
 #button1{
     border-style: outset;
@@ -57,16 +96,12 @@ ul li{
     background-color: whitesmoke;
     padding: 5px 8px;
 }
-#search1{
-    padding: 5px 3px;
-    margin-right: 5px;
-}   
 h1{
     text-align: center;
 }
 p{
                 
 }
-span{
+span div{
     text-align: right;
 }
