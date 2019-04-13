@@ -1,5 +1,4 @@
 body{
-    box-sizing: content-box;
     padding: 0;
     margin: 0;
     font-family: cursive;
@@ -10,7 +9,7 @@ body{
     background-size: cover;
 }
 .header{
-    background-image: url(banner01.jpg);
+    background-image: url(banner03.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -47,8 +46,8 @@ ul li{
 .content{
     color: whitesmoke;
     text-align: center;
-    padding: 20px 10px;
-    margin: 0 80px;
+    padding: 20px 10px 20px 10px;
+    margin: 0 80px 0 80px;
     background-color: #0009;
 }
 .boxes{
@@ -57,6 +56,8 @@ ul li{
 }
 .ulboxes{
     list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px 0 20px 0;
 }
 .liboxes{
     padding: 0 0 10px 0;
